@@ -17,8 +17,6 @@ for(i = 0; i<=10; i++) {
 }
 
 
-
-
 /* Ejercicio 2
 Pedir texto mediante prompt, concatenar un valor en cada repetición
 realizando una salida por resultado, hasta que se ingresa "ESC" */
@@ -32,7 +30,6 @@ while(texto != "ESC") { /* Se va a repetir siempre y cuando el usuario ingrese a
     /* Vuelvo a solicitar un dato y vuelve a evaluar si es distinto a ESC */
     texto =  prompt("Ahora ingresá otro nombre")
 }
-
 
 
 /* Ejercicio 3
