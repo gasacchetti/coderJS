@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Move it! - Mudanzas y envíos nacionales e internacionales</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid navbar-container">
+              
+                <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="Logo principal" class="navbar-logo" width="200px"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quienes">¿Quiénes somos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cotiza">Cotizá acá</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                    <li id="modal-iniciar-abrir">
+                    </li>
+
+                    <br>
+                    <li id="modal-crear-abrir">
+                    </li>
+                    </ul>
+
+
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+
+
+    <!-- Saludos según tipo de ingreso -->
+
+    <section id="saludo" class="saludo" >
+
+    </section>
+
+    <section id="saludo1" class="saludo" >
+
+    </section>
+
+
+    <section class="title-container">
+        <h1>¿Necesitas mudarte? ¿Querés hacer un envío internacional?</h1>
+        <h2>¡No te preocupes! Nosotros hacemos TODO por vos</h2>
+    </section>
+
+
+
+    <section class="section-quienes" id="quienes">
+        <p class="title-section">¿Quiénes somos?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit molestias distinctio quia placeat corporis quisquam sint esse beatae tempora, iusto amet nobis doloribus sequi repellat fugiat adipisci natus perspiciatis ipsa?
+        Laudantium eligendi ex eos veritatis rem aspernatur in? Excepturi fugit alias fugiat nisi dolorum nostrum ipsa, quibusdam, repudiandae nemo explicabo vero aliquid est eius velit recusandae sed sint nulla molestiae.
+        Facere laborum inventore dolor placeat blanditiis expedita harum dicta nesciunt eveniet, saepe porro unde odio atque eos tenetur praesentium nam incidunt eaque deserunt perferendis nemo possimus repellat pariatur! Odit, at?
+        </p>
+    
+        <section class="valores-container">
+            <div class="valores">
+                <img src="images/facil.png" alt="Mano" class="valores-logo">
+                <p class="title-section">Fácil</p>
+                <p class="valores-description">¿Te mudas de casa o de oficina? Dejalo en nuestras manos, nos encargamos de todo. Desde mudanzas en Bahía Blanca, Nacionales e Internacionales.</p>
+            </div>    
+        
+            <div class="valores">
+                <img src="images/rapido.png" alt="Rápido" class="valores-logo">
+                <p class="title-section">Rápido</p>
+                <p class="valores-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nobis fugit recusandae quo quas iure, obcaecati cumque doloribus atque natus minus?.</p>
+            </div>
+    
+            <div class="valores">
+                <img src="images/seguro.png" alt="Seguridad" class="valores-logo">
+                <p class= "title-section">Seguro</p>
+                <p class= "valores-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos omnis officiis doloremque rem consectetur provident alias magnam incidunt.</p>
+            </div>
+       </section>
+    
+    
+    </section>
+
+    <section class="section-cotiza" id="cotiza">
+        <p class="title-section">Cotizá acá</p>
+
+        <form id="formulario" class="row">
+        <div class="form-container">
+
+                <div class="mb-3 form-cotiza">
+                  <label  class="form-label">Descripción</label>
+                  <input type="text" class="form-control" id="input-descripcion" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3 form-cotiza">
+                  <label class="form-label">Volumen (en m3)</label>
+                  <input type="text" class="form-control" id="input-volumen">
+                </div>
+
+                <div class="mb-3 form-cotiza">
+                    <label class="form-label">Distancia(en km)</label>
+                    <input type="text" class="form-control" id="input-distancia">
+                </div>
+
+                <button type="submit" class="btn btn-primary" id="enviar">Enviar</button>
+
+
+            </form>
+
+        </div>
+    </section>
+
+
+    <section class="card-flete-container">
+
+        <div id="fletes" class="card-flete">
+            
+        </div>
+
+
+        <form class="card-flete-btn" id="form-confirmar">
+            <button type="submit" class="btn" id="confirmar">Confirmar</button>
+        </form>
+
+        <div id="total-final" class="total-final">
+
+        </div>
+
+    </section>
+
+
+    <section class="section-faq" id="faq">
+        <p class="title-section">FAQ</p>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <p class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    ¿Cuánto cuesta realizar una cotización?
+                    </button>
+                </p>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-faq">Nada! Realizamos tu cotización de manera gratuita.</div>
+                </div>
+            </div>
+
+
+            <div class="accordion-item">
+                <p class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    En caso de incidente ¿Cuentan con un seguro?
+                    </button>
+                </p>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-faq">Tenemos un seguro contratado. El límite del seguro siempre lo puede ampliar 
+                        el cliente tanto en las mudanzas como en el envío de paquetería.</div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <p class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    ¿Trabajan solo a nivel local?
+                    </button>
+                </p>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-faq">Tanto para las mudanzas como para los envíos trabajamos a nivel local,
+                         nacional e internacional.</div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <p class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    ¿Realizan embalajes?
+                    </button>
+                </p>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-faq">Sí, embalamos/empaquetamos todo en función del bien a transportar.</div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <p class="accordion-header" id="flush-headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                    ¿Desarman muebles?
+                    </button>
+                </p>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-faq">Sí, desarmamos y volvemos a armar los muebles en el lugar de destino.</div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <p class="accordion-header" id="flush-headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                    ¿Realizan algún tipo de trabajo adicional?
+                    </button>
+                </p>
+                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-faq">Sí, siempre que el cliente lo requiera ,pero ese costo se añadirá al presupuesto de la mudanza en sí (desembalaje, armado de muebles, etc).</div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <p class="accordion-header" id="flush-headingSeven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                    ¿Qué medio de transporte utilizan en las mudanzas?
+                    </button>
+                </p>
+                <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-faq">En las mudanzas locales y nacionales utilizamos los vehículos (camiones) propios de la empresa y en las mudanzas internacionales utilizamos contenedores.</div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <p class="accordion-header" id="flush-headingEight">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                    ¿Con cuánto tiempo de antelación debo solicitar el servicio?
+                    </button>
+                </p>
+                <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-faq">Cinco días hábiles antes para las cargas grandes y medianas (con el volumen a partir de 8 m3 o con el peso a partir de 1100 kg). Para cargas pequeñas
+                        sugerimos enviar un email lo antes posible para poder adaptar nuestros servicios a sus necesidades y coordinar el día que mejor convenga.
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+
+          </div>
+
+    </section>
+
+
+    <!--Footer-->
+    <footer>
+        <div class="footer-container">
+            <div class="logo">
+                <a href="index.html#navbar">
+                    <img src="images/logo.svg" alt="Logo principal" class="navbar-logo" width="300px">
+                </a>
+            </div> 
+            <!-- Links footer -->
+            <div class="footer-links">
+                <h3 class="info-contacto-title">SERVICIOS</h3>
+                <ul>
+                    <li>                    
+                        <a href="index.html">&#9656 Home</a>
+                    </li>
+                    <li>
+                        <a href="#quienes">&#9656 ¿Quiénes somos?</a>
+                    </li>
+                    <li>
+                        <a href="#cotiza">&#9656 Cotizá acá</a>
+                    </li>
+                    <li>
+                        <a href="#faq">&#9656 FAQ</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!-- Información de contacto-->
+            <div class="info-contacto">
+                <h3 class="info-contacto-title">CONTACTO</h3>
+                <div class="info-contacto-container">
+                    <div class="info-contacto-phone">
+                        <i class="icon-call"></i>
+                        <a href="tel:+5492914633459" class="info-contacto-text">+54 9 2914633459</a>
+                    </div>
+                    <div class="info-contacto-mail">
+                        <i class="icon-mail"></i>
+                        <a href="mailto:info@moveit.com" class="info-contacto-text">info@moveit.com</a>
+                    </div>
+                </div>
+                <!-- Redes sociales-->
+                <div class="redes-sociales">
+                    <div class="facebook">
+                        <a href="https://www.facebook.com/">
+                            <i class="icon-facebook"></i>
+                        </a>
+                    </div>
+
+                    <div class="instagram">
+                        <a href="https://www.instagram.com/">
+                            <i class="icon-instagram"></i>
+                        </a>
+                    </div> 
+                    <!-- Link directo a Whatsapp -->
+                    <div class="telegram">
+                        <a href="https://wa.me/5492914637469">
+                            <i class="icon-telegrama"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-footer">
+            <p>
+              © 2021 Move it! - Todos los derechos reservados - Developed by gasacchetti.
+            </p>  
+        </div>
+    </footer>
+
+
+    <!-- Script JS -->
+    <script src="app.js"></script>
+    
+    <!-- Script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+
+</body>
+</html>

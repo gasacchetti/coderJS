@@ -1,0 +1,303 @@
+@charset "UTF-8";
+/* Main file */
+/* Base */
+/* Colores más utilizados */
+/* Fonts más utilizadas */
+/* Colores más utilizados */
+/* Fonts más utilizadas */
+/* Reseteo todos los valores que vienen con html por default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Color de fondo, fuente y color general para todo el body */
+body {
+  background-color: #f8f9fa;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+h1 {
+  color: #274472;
+  font-family: "Nunito", sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: bold;
+  margin: 6rem 2rem;
+}
+
+h2 {
+  color: #41729F;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: normal;
+  font-size: 2.5rem;
+  margin: 2rem;
+}
+
+.title-section {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 2rem;
+}
+
+/* Estilos links Footer */
+footer .footer-container .info-contacto a, footer .footer-container .footer-links ul a {
+  text-decoration: none;
+  color: #274472;
+  font-size: 1rem;
+}
+footer .footer-container .info-contacto a:hover, footer .footer-container .footer-links ul a:hover {
+  color: #5885AF;
+}
+
+/* Layout */
+/* Colores más utilizados */
+/* Fonts más utilizadas */
+/* Estilos links Footer */
+footer .footer-container .info-contacto a, footer .footer-container .footer-links ul a {
+  text-decoration: none;
+  color: #274472;
+  font-size: 1rem;
+}
+footer .footer-container .info-contacto a:hover, footer .footer-container .footer-links ul a:hover {
+  color: #5885AF;
+}
+
+/* Estilos navbar */
+.navbar .navbar-container {
+  width: 100%;
+  margin: 0 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.navbar .navbar-container ul li {
+  padding: 0 1.5rem;
+}
+
+.title-container {
+  min-height: 60vh;
+}
+
+/* Colores más utilizados */
+/* Fonts más utilizadas */
+/* Estilos links Footer */
+footer .footer-container .info-contacto a, footer .footer-container .footer-links ul a {
+  text-decoration: none;
+  color: #274472;
+  font-size: 1rem;
+}
+footer .footer-container .info-contacto a:hover, footer .footer-container .footer-links ul a:hover {
+  color: #5885AF;
+}
+
+footer {
+  width: 100%;
+  background-color: #B0D2DA;
+}
+footer .footer-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+footer .footer-container .footer-links ul {
+  list-style-type: none;
+}
+footer .footer-container .info-contacto-title {
+  color: #274472;
+}
+footer .footer-container .logo {
+  align-self: center;
+}
+footer .sub-footer {
+  text-align: center;
+  border-top: 1px solid #274472;
+  margin: 0.1rem auto 0;
+  color: #274472;
+  width: 90%;
+}
+footer .sub-footer p {
+  margin: 0;
+}
+
+/* Components */
+/* Colores más utilizados */
+/* Fonts más utilizadas */
+/* Estilos comunes a todos los botones */
+.btn {
+  background-color: #274472;
+  color: white;
+  border-style: none;
+  border-radius: 8px;
+  transition: all 1s ease;
+  box-shadow: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+}
+.btn:hover {
+  background-color: #5885AF;
+  border-style: none;
+  color: white;
+}
+
+/* Colores más utilizados */
+/* Fonts más utilizadas */
+/* Utilities */
+/* Colores más utilizados */
+/* Fonts más utilizadas */
+/* Estilos links Footer */
+footer .footer-container .footer-links ul a, footer .footer-container .info-contacto a {
+  text-decoration: none;
+  color: #274472;
+  font-size: 1rem;
+}
+footer .footer-container .footer-links ul a:hover, footer .footer-container .info-contacto a:hover {
+  color: #5885AF;
+}
+
+/* Colores más utilizados */
+/* Fonts más utilizadas */
+/* Estilos comunes a todos los botones */
+.btn {
+  background-color: #274472;
+  color: white;
+  border-style: none;
+  border-radius: 8px;
+  transition: all 1s ease;
+  box-shadow: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+}
+.btn:hover {
+  background-color: #5885AF;
+  border-style: none;
+  color: white;
+}
+
+.saludo {
+  font-family: "Nunito", sans-serif;
+  color: #5885AF;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 1rem;
+  text-shadow: 2px 2px 5px #CAB29F;
+}
+
+.section-quienes, .section-faq {
+  background-color: #41729F;
+  color: white;
+  padding: 3rem 4rem;
+}
+.section-quienes p, .section-faq p {
+  color: white;
+}
+
+.section-cotiza {
+  padding: 2rem 0;
+}
+.section-cotiza .title-section {
+  color: #41729F;
+}
+
+.section-faq .text-faq {
+  color: black;
+}
+
+/* Sección quiénes somos */
+.valores-container {
+  /* Alineo los tres */
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 2rem auto;
+  /*--- Tablet y mobile --- */
+}
+@media only screen and (max-width: 991px) {
+  .valores-container {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.valores-container .valores {
+  width: 30%;
+  text-align: center;
+  margin: 1rem auto;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  /*--- Tablet y mobile --- */
+}
+@media only screen and (max-width: 991px) {
+  .valores-container .valores {
+    width: 80%;
+  }
+}
+.valores-container .valores .valores-logo {
+  width: 45%;
+}
+.valores-container .valores .valores-description {
+  text-align: center;
+  margin: 1rem 2rem 0 2rem;
+}
+.valores-container .valores .valores-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 2rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.form-container .form-cotiza {
+  width: 60%;
+  margin: 0;
+}
+
+.card-flete-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+.card-flete-container .card-flete {
+  padding: 0rem 4rem 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+.card-flete-container .card-flete-btn {
+  display: flex;
+  justify-content: center;
+}
+.card-flete-container .card-flete-btn .btn {
+  background-color: #4d4d4d;
+}
+.card-flete-container .card-flete-btn .btn:hover {
+  background-color: #41729F;
+}
+.card-flete-container .total-final {
+  font-family: "Montserrat", sans-serif;
+  color: #41729F;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 1rem;
+  text-shadow: 2px 2px 5px #CAB29F;
+}
+
+/*# sourceMappingURL=style.css.map */

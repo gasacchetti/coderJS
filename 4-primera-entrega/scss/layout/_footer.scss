@@ -1,0 +1,58 @@
+@import '../base/colors';
+@import '../base/fonts';
+@import '../base/extends';
+
+@import '../utilities/mixins';
+
+footer {
+
+    width: 100%;
+    background-color: $babyblue;
+
+    .footer-container {
+
+        @include parametros-flex(100%, flex, space-around, flex-start);
+        flex-wrap: wrap;
+        padding: 2rem;
+       
+        .footer-links {
+
+            ul {
+               list-style-type: none;
+                    a {
+                          @extend %a-footer;
+                    }
+            }
+
+        }
+
+        .info-contacto {
+            a {
+                @extend %a-footer;
+          }
+        }
+
+        .info-contacto-title {
+            color: $darkblue;
+        }
+
+        .logo {
+            align-self: center;
+        }
+    }
+
+    .sub-footer {  
+        text-align: center;
+        border-top:  1px solid $darkblue;
+        margin: 0.1rem auto 0;
+        color: $darkblue;
+        width: 90%;
+    
+        p {
+            margin: 0;
+        }
+
+    } 
+
+
+}

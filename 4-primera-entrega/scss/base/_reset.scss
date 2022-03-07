@@ -1,0 +1,52 @@
+@import '../base/colors';
+@import '../base/fonts';
+
+/* Reseteo todos los valores que vienen con html por default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Color de fondo, fuente y color general para todo el body */
+
+body {
+    background-color: $white-2;
+    font-family: $montserrat; 
+    color: $black;
+ 
+}
+
+// /* Títulos principales de todas las secciones */
+
+h1 {
+    color: $darkblue;
+    font-family: $nunito;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bold;
+    margin: 6rem 2rem;
+}
+
+// /* Títulos secundarios de todas las secciones */
+
+h2 {
+    color: $midnightblue;
+    font-family: $montserrat;
+    text-align: center;
+    font-weight: normal;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+// /* Subtítulos menos importantes */
+
+
+.title-section {
+    text-align: center;
+    font-family: $montserrat;
+    color: $white;
+    font-size: 2rem;
+}
+

@@ -1,0 +1,6 @@
+@mixin parametros-flex($width, $display, $justify, $align) {
+    width: $width;
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
+}
