@@ -1,0 +1,145 @@
+@import '../base/colors';
+@import '../base/fonts';
+@import '../base/extends';
+
+@import '../components/buttons';
+
+@import '../utilities/mixins';
+
+.saludo {
+    font-family: $nunito;
+    color: $bluegrey;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 1rem;
+    text-shadow: 2px 2px 5px $grey;
+ 
+}
+
+.section-quienes, .section-faq {
+    background-color: $midnightblue;
+    color: $white;
+    padding: 3rem 4rem ;
+
+    p {
+        color: $white;
+    }
+}
+
+.section-cotiza {
+
+    padding: 2rem 0;
+    .title-section {
+        color: $midnightblue;
+    }
+
+}
+
+.btn {
+    @extend %btn-common; 
+}
+
+// Seccion FAQ
+.section-faq {
+    .text-faq {
+        color: $black;
+    }
+}
+
+/* Sección quiénes somos */
+
+.valores-container {
+    /* Alineo los tres */
+    @include parametros-flex(90%, flex, space-around, flex-start);
+    margin: 2rem auto;
+    
+    /*--- Tablet y mobile --- */
+    @media only screen and (max-width: 991px) {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .valores {
+        width: 30%;
+        text-align: center;
+        margin: 1rem auto;
+        font-family: $openSans;
+        color: black;
+
+        /*--- Tablet y mobile --- */
+        @media only screen and (max-width: 991px) {
+            width: 80%;
+        }
+
+        .valores-logo {
+              width: 45%;
+        }
+
+        .valores-description {
+            text-align: center;
+            margin: 1rem 2rem 0 2rem;
+        }
+
+        .valores-title {
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            margin: 2rem;
+        }
+    }
+}
+
+// Sección cotizá
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+
+    .form-cotiza {
+        width: 60%;
+        margin: 0;
+        
+    }
+}
+
+.table-flete-container {
+
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem auto;
+    padding: 1rem 0;
+
+    .table-flete-btn {
+        display: flex;
+        justify-content: center;
+        margin: 2rem 0 1rem 0;
+
+
+        .btn {
+            background-color: $darkgrey;
+
+
+            &:hover {
+                background-color: $midnightblue;
+            }
+        }
+        
+    }
+
+    .total-final {
+        font-family: $montserrat;
+        color: $midnightblue;
+        font-size: 2rem;
+        text-align: center;
+        padding-top: 1rem;
+        text-shadow: 2px 2px 5px $grey;
+    }
+
+}

@@ -1,0 +1,22 @@
+@import '../base/colors';
+@import '../base/fonts';
+
+
+/* Estilos comunes a todos los botones */
+%btn-common {
+    background-color: $darkblue; 
+    color: $white;
+    border-style: none;
+    border-radius: 8px;
+    transition: all 1s ease;
+    box-shadow: none;
+    font-family: $montserrat;
+    font-size: 1.1rem;
+
+
+    &:hover {
+        background-color: $bluegrey;
+        border-style: none;
+        color: $white;
+    }
+}

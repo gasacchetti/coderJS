@@ -1,0 +1,11 @@
+/* Estilos links Footer */
+%a-footer {
+    text-decoration: none;
+    color: $darkblue;
+    font-size: 1rem;
+
+
+    &:hover {
+        color: $bluegrey;
+    }
+}
